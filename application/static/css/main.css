@@ -1,0 +1,36 @@
+.options button {
+    font-size: 25px;
+    padding: 15px;
+    border-radius: 5px;
+    margin: 20px;
+    padding: 15px 25px;
+    width: 50%;
+    display: block;
+}
+
+.image {
+    float: left;
+}
+
+.options {
+    float: right;
+    margin-right: 300px;
+}
+
+.options p {
+    float: top;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.header {
+    text-align: center;
+}
+
+.header h1 {
+    color: green;
+}
+.header p {
+    text-align: center;
+    text-decoration-color: greenyellow;
+}
