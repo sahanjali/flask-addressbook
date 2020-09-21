@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="../static/css/main.css">
+    <link rel="stylesheet" href="../static/css/bootstrap.css">
+</head>
+
+<body>
+
+    <div class='header'>
+        <h1>Welcome To AddressBook</h1>
+
+        <p> A small book in which one writes the
+            names, addresses, and telephone numbers
+            of people one knows. 2 : a place
+            on a computer or other device for storing
+            e-mail addresses, phone numbers, etc.</p>
+    </div>
+
+    <div>
+        <div class="image">
+            <img src="../static/images/1485138.png">
+        </div>
+
+        <div class="options">
+            <form action="" method="post">
+
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" class="form-control"  name="name" placeholder="Enter name">
+                </div>
+
+                <div class="form-group">
+                    <label for="address">Address</label>
+                    <input type="text" class="form-control" name="address" placeholder="Enter address">
+                </div>
+
+                <div class="form-group">
+                    <label for="ph_num">Phone Number</label>
+                    <input type="tel" class="form-control" name="ph_num" placeholder="Enter Phone number">
+                </div>
+
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Email address</label>
+                    <input type="email" class="form-control" name="email" aria-describedby="emailHelp"
+                        placeholder="Enter email">
+                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                        else.</small>
+                </div>
+
+                <input type="submit" class="btn btn-primary" value="Submit">
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
